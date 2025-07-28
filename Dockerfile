@@ -10,7 +10,7 @@ RUN ollama serve & \
         echo "Waiting for Ollama server..."; \
         sleep 1; \
     done && \
-    ollama pull gemma:2b && \
+    ollama pull tinyllama && \
     pkill ollama # Optional: kill the server if you only need it for the pull
 
 
